@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sistema Interactivo De Mensajes">
+    <meta name="keywords" content="Jovenes, Trabajo, Motivacion">
+    <meta name="sitedomain" content="https://github.com/RojasDaniel3/sistema_interactivo_de_mensajes">
+    <meta name="organization" content="RojasDaniel3">
+    <meta name="author" content="Daniel Fernando Rojas Echeverria">
+    <meta name="designer" content="Daniel Fernando Rojas Echeverria">
+    <meta name="copyright" content="© 2025 aca tu usuario. All rights reserved">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="15days">
+    <link rel="stylesheet" href="./src/CSS/styles.css">
+    <link rel="shortcut icon" href=".//src/icons/icon.webp" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/0b06eaa0c3.js" crossorigin="anonymous"></script>
+    <title>Sistema Interactivo De Mensajes</title>
+</head>
+<body>
+        <header>
+            <h1>Sistema Interactivo De Mensajes</h1>
+        </header>
+    <main class="container">
+        <div class="name">
+            <label for="name">Nombre</label>
+            <i class="fa-solid fa-face-smile"><input type="text" id="name" placeholder="Ej: Daniel" min="0"></i>
+        </div>
+
+        <div class="age">
+            <label for="age">Edad</label>
+            <i class="fa-solid fa-calendar"><input type="number" id="age" placeholder="Ej: 25" min="0"></i>
+        </div>
+        <div class="boton">
+            <button id="btn-execute">Mostrar</button>
+
+        </div>
+        <div class="message">
+            <section class="result" id="result"></section>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright</p>
+    </footer>
+    <script src="./src/js/sistema_interactivo.js"></script>
+</body>
+</html>
