@@ -116,3 +116,17 @@ footer {
     font-family: 'Roboto', sans-serif;
 }
 
+
+@media (max-width: 576px) {
+    header {
+        font-size: 7px;
+    }
+
+    .container {
+        width: 300px;
+    }
+
+    footer {
+        font-size: 13px;
+    }
+}
