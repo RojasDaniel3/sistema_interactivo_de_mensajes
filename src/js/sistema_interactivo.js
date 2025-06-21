@@ -6,12 +6,16 @@ let btnExecute = document.getElementById("btn-execute");
 
 let result = document.getElementById("result")
 
+
+// function to validate
 btnExecute.addEventListener("click", function () {
     
     let age = Number(document.getElementById("age").value);
     let name = document.getElementById("name").value;
     
     let message 
+
+    // if section
     if (name === "" || age === "" || age === "0") {
         message = "Por favor, rellena ambos campos de nombre y edad."
     }else if (isNaN(age) || age <= 0){
